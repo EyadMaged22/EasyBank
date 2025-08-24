@@ -1,0 +1,300 @@
+ html {
+
+     width: 100vw;
+     overflow-x: hidden;
+     margin: 0%;
+     padding: 0%;
+ }
+
+ body {
+    margin: 0%;
+     padding: 0%;
+     font-family: 'TT Bluescreens trial', sans-serif;
+     font-style: normal;
+     box-sizing: border-box;
+
+ }
+
+ nav {
+
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .logo {
+
+     height: 30px;
+     padding: 20px;
+    padding-right: 0px;
+    margin-right: 0px;
+ }
+
+ ul {
+
+     width: 30%;
+     list-style: none;
+     display: flex;
+     justify-content: space-evenly;
+    padding: 0px;
+ }
+
+
+ .button {
+
+     width: 208.5px;
+     background-color: transparent;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ li a {
+     font-size: x-large;
+     font-weight: 500;
+     cursor: pointer;
+     color: hsl(0, 0%, 56%);
+     text-decoration: none;
+     transition: .2s;
+
+ }
+ li a:hover{
+
+    font-size: xx-large;
+    color: rgb(0, 80, 229);
+ }
+
+ button {
+
+     height: 35px;
+     border-radius: 23px;
+     background: linear-gradient(120deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+     color: white;
+     width: 120px;
+     cursor: pointer;
+     font-family: 'TT Bluescreens trial', sans-serif;
+     font-style: normal;
+     font-size: large;
+     font-weight: 700;
+     border: 0;
+     transition: .2s;
+ }
+
+ button:hover {
+     font-size: 20.5px;
+     background: linear-gradient(to left, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+     scale: 105%;
+
+ }
+
+ .hero {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 3rem;
+ }
+
+ .txt {
+
+     margin-left: 150px;
+     font-size: xx-large;
+
+ }
+
+ .txt h1 {
+
+     color: hsl(233, 26%, 24%);
+
+
+
+ }
+
+ .txt p {
+
+     color: hsl(0, 0%, 56%);
+
+ }
+
+ img {
+
+     height: 800px;
+     margin-right: 100px;
+
+ }
+
+ .about {
+     margin-top: 100px;
+     margin-left: 150px;
+     font-size: xx-large;
+
+ }
+
+ .about h2 {
+
+     color: hsl(233, 26%, 24%);
+
+ }
+
+ .about p {
+
+     color: hsl(0, 0%, 56%);
+
+ }
+
+ .featuers {
+     margin-top: 150px;
+     display: flex;
+     width: 100vw;
+     justify-content: center;
+     gap: 190px;
+ }
+
+ .featuers div img {
+
+     height: 80px;
+
+ }
+
+ .featuers div h1 {
+     font-size: 40px;
+     color: hsl(233, 26%, 24%);
+     margin: 0px;
+     margin-top: 10px;
+ }
+
+ .featuers div p {
+
+     color: hsl(0, 0%, 56%);
+     font-size: xx-large;
+     line-height: 30px;
+     margin: 0px;
+     margin-top: 20px;
+ }
+
+ .cont {
+
+     display: flex;
+     justify-content: center;
+     gap: 120px;
+
+
+ }
+
+ .cont div img {
+
+     height: 200px;
+     border-radius: 5px;
+     margin: 0px
+ }
+
+ .cont div {
+     width: 300.28px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
+
+ }
+
+ .cont div h1 {
+
+     color: hsl(233, 26%, 24%);
+     margin: 0px;
+     margin-top: 10px;
+     font-size: 30px;
+     text-align: center;
+ }
+
+ .p1 {
+     color: hsl(0, 0%, 56%);
+     margin: 0px;
+     margin-top: 15px;
+     font-size: 25px;
+     word-spacing: 4px;
+ }
+
+ .p2 {
+
+     color: hsl(0, 0%, 56%);
+     margin: 0px;
+     margin-top: 10px;
+     font-size: 25px;
+     text-align: center;
+     word-spacing: 4px;
+ }
+
+ .la h1 {
+
+     color: hsl(233, 26%, 24%);
+     font-size: 50px;
+     margin: 0px;
+     margin-left: 170px;
+     margin-top: 100px;
+     margin-bottom: 20px;
+ }
+
+ footer {
+     display: flex;
+     justify-content: space-between;
+     width: 100vw;
+     height: 10rem;
+     background-color: hsl(233, 26%, 24%);
+     margin: 0px;
+     margin-top: 30PX;
+
+ }
+footer .cont2{
+
+    display: flex;
+
+
+
+
+}
+.logo2 img{
+
+height: 30px;
+margin-left: 60px;
+margin-top: 20px;
+
+
+}
+.first a,.sec a{
+
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%); 
+    font-family: 'TT Bluescreens trial', sans-serif;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 13px;
+    text-align: center;
+}
+.btn{
+background-color: black;
+display: flex;
+justify-content: right;
+margin: 0px;
+margin-bottom: 400px;
+
+}
+.cont3{
+
+margin: 0px;
+margin-right: 150px;
+margin-top: 20px;
+
+}
+.cont3 p {
+
+ font-family: 'TT Bluescreens trial', sans-serif;
+    color: hsl(0, 0%, 98%);
+    font-size: x-large;
+    cursor: pointer;
+}
+
+
+
